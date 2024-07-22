@@ -5,6 +5,7 @@ import { api } from "../api"
 import CardInfo from "../components/CardInfo"
 import { AppContext } from "../components/AppContext"
 
+
 interface UserData {
     email: string
     password: string
@@ -36,7 +37,7 @@ const Conta = () => {
     if(userData && id !== userData.id) {
         navigate('/')
     }
-  
+    
     return (
         <Center>
             <SimpleGrid columns={2} spacing={8} paddingTop={16}>

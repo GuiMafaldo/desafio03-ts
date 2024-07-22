@@ -20,13 +20,18 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
 #### Desafios
 [ ] Incluir validação da senha no campo de login
-  - Para logar, além do email faça a validação com a senha informada pelo usuário.
-  - Durante a implementação, aplique o TDD e escreva os testes unitários para a nova validação
+  - Para logar, além do email faça a validação com a senha informada pelo usuário. -> OK
+  - Durante a implementação, aplique o TDD e escreva os testes unitários para a nova 
+    validação -> OK
+
+
 
 [ ] Implemente um sistema de login com a Context API
-  - Seguindo os exemplos demonstrados ao longo do curso, crie um estado global para realizar o login
-  - Utilize o localStorage para armazenar os dados do usuário ao logar
-  - Caso os dados do usuário existam no localStorage, a tela de login não deve ser exibida
+  - Seguindo os exemplos demonstrados ao longo do curso, crie um estado global para realizar o login -> OK
+
+  - Utilize o localStorage para armazenar os dados do usuário ao logar -> OK
+
+  - Caso os dados do usuário existam no localStorage, a tela de login não deve ser exibida -> OK
 
 [ ] Crie uma página para exibir as informações do usuário
   - Crie uma página onde será exibido o nome, email

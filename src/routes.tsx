@@ -4,6 +4,8 @@ import { AppContext } from "./components/AppContext"
 import Conta from "./pages/Conta"
 import ContaInfo from "./pages/ContaInfo"
 import Home from "./pages/Home"
+import NewUserAccount from "./pages/UserAccount"
+
 
 const MainRoutes = () => {
     const { isLoggedIn } = useContext(AppContext)
@@ -12,6 +14,7 @@ const MainRoutes = () => {
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/conta/:id' element={ isLoggedIn ? <Conta /> : <Home/> } />
+            <Route path='/conta/:id' element={ isLoggedIn ? <NewUserAccount/> : <Home/> } />
             <Route path='/infoconta' element={<ContaInfo />} />
         </Routes>
     )
